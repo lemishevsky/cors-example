@@ -1,0 +1,25 @@
+{
+  "name": "cors-example",
+  "version": "1.0.0",
+  "description": "CORS example",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-from": "nodemon --experimental-modules server-from/server-from.js",
+    "start-to": "nodemon --experimental-modules server-to/server-to.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/cors-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/cors-example/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/cors-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6"
+  }
+}
